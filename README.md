@@ -8,11 +8,13 @@ This app uses python 3.6.5
 
 ###Docker compose
 1. Install docker 
-[Docker](https://docs.docker.com/install/)
+    [Docker](https://docs.docker.com/install/)
 2. Install docker-compose
-[Docker Compose](https://docs.docker.com/compose/install/)
+    [Docker Compose](https://docs.docker.com/compose/install/)
 3. Run
-docker-compose up
+    ```bash
+    docker-compose up
+    ```
 ###Virtual Environment
 1. Install virtualenv 
     ```python
