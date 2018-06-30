@@ -1,0 +1,39 @@
+{
+	"id": "5a55be3a-bb62-4c45-bafb-b639cb7c8865",
+	"name": "zoomcatalog test",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"90f36a6c-2377-40c4-a209-311499f95007"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "90f36a6c-2377-40c4-a209-311499f95007",
+			"name": "hello",
+			"url": "http://localhost:5000/hello-world",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"this\": \"is\",\n\t\"an\": [\n\t\t\"example\"\n\t]\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}
